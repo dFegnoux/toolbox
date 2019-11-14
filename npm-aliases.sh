@@ -1,0 +1,7 @@
+alias nrtc="npm run test -- --coverage"
+alias nrtco="npm run test:coverage:open"
+alias coverlast="npm run test -- --coverage --changedSince HEAD^"
+alias nrtw="npm run test -- --watch"
+alias nrd="npm run dev"
+alias ni="npm install"
+alias nrp="npm run phoenix" 
