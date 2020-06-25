@@ -1,0 +1,32 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.enablePreview": false,
+    "editor.dragAndDrop": false,
+    "workbench.colorCustomizations": {},
+    "window.zoomLevel": 0,
+    "px-to-rem.number-of-decimals-digits": 2,
+    "dayNightThemeSwitcher.dayTheme": "Default Light+",
+    "dayNightThemeSwitcher.nightTheme": "Default Dark+",
+    "workbench.colorTheme": "Default Dark+",
+    "javascript.suggest.autoImports": false,
+    "px-to-rem.px-per-rem": 10,
+    "search.exclude": {
+        "!**/node_modules/@brikke/sass-utils": true,
+        "!**/node_modules/@brikke/config": true,
+        "*/.next/cache/*": true,
+        "**/static/*": true,
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.migration.2_x": "on",
+    "keyboard.dispatch": "keyCode",
+}
