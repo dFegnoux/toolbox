@@ -7,5 +7,8 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # Put the good theme
 mv ~/.zshrc ~/.zshrc.in && sed -e 's/THEME="basic"/THEME="agnoster"/g' ~/.zshrc.in > ~/.zshrc
 
+# add aliases to .zshrc
+source ./addAliases.sh
+
 # Resource ZSH
 zsh
