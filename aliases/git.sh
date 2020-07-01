@@ -1,5 +1,6 @@
 alias gpl="git pull"
 alias gph="git push"
+alias gpf="git push --force-with-lease"
 alias gr="git rebase"
 alias gca="git commit --ammend"
 alias gcan="git commit --amend --no-edit"
